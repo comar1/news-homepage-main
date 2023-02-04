@@ -1,0 +1,30 @@
+.header{
+    color: #9c9aa0;
+    background-color: rgb(133, 133, 133);
+    max-height: 60rem;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding: 2rem;
+    justify-content: center;
+    overflow:hidden;
+}
+.logo{
+    text-align: left;
+    float: left;
+    width: 20%;
+}
+.nav{
+    margin-top: 5px;
+    text-align: right;
+    float: right;
+    width: 80%;
+}
+a { margin-right: 1rem; text-decoration: none;} /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none;  }
+a:hover { text-decoration: none;  color: #d4a59e}
+a:focus { text-decoration: none;  }
+a:hover, a:active { text-decoration: none;}

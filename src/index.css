@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Imported;
+  src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+
+:root {
+  font-family: Imported;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #fefdf9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
