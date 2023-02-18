@@ -1,13 +1,25 @@
 import React from 'react';
 import Header from './components/Header';
-import Content from './components/Content';
+import Content from './components/Content/Content';
 
 function App() {
+  const appCss = {
+    top: "50%",
+    left: "50%",
+    width: "80em",
+    height: "40em",
+    transform: "translate(-50%, -50%)",
+    border: "1px solid #666",
+    backgroundColor: "#b9faac",
+    position: "fixed"
+  }
 
   return (
-    <div className="App">
-      <div><Header/></div>
-      <div><Content/></div>
+    <div>
+      <div style={appCss}>
+        <Header></Header>
+        <Content></Content>
+      </div>
     </div>
     
   )

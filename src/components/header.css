@@ -1,10 +1,10 @@
 .header{
     color: #9c9aa0;
-    background-color: rgb(133, 133, 133);
+    background-color: white;
     max-height: 60rem;
     max-width: 100%;
     padding: 0px;
-    margin: 0px;
+    margin: 20px 0px;
     padding: 2rem;
     justify-content: center;
     overflow:hidden;
@@ -12,15 +12,15 @@
 .logo{
     text-align: left;
     float: left;
-    width: 20%;
+    width: 55%;
 }
 .nav{
     margin-top: 5px;
     text-align: right;
     float: right;
-    width: 80%;
+    width: 45%;
 }
-a { margin-right: 1rem; text-decoration: none;} /* Globally */
+a { margin-right: 2.4rem; text-decoration: none; color:#9997a0;} /* Globally */
 
 /* Each state */
 
